@@ -1,0 +1,11 @@
+{
+  "title": "NTU Semiconductor Club",
+  "description": "Enables interactive exploration of layered content by clicking on Layer A, B, and C, enhancing user engagement and content understanding.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
