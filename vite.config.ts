@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => {
   const emitSourcemaps = mode === 'development'
 
   return {
-    base: process.env.FIGMA_PUBLIC_URL ? `${process.env.FIGMA_PUBLIC_URL}/` : '/',
+    base: "https://github.com/7oCode/NTU_SemiconductorClub_Figma.io/tree/main" ? "https://github.com/7oCode/NTU_SemiconductorClub_Figma.io/tree/main" : '/',
     build: {
       sourcemap: emitSourcemaps ? 'inline' : false,
       minify: !emitSourcemaps,
